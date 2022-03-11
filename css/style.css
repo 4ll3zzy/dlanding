@@ -3,11 +3,9 @@
     padding: 0;
     font-family: 'Lato', sans-serif;
 }
-
 a {
     color: rgba(0, 0, 0, 0.7);
 }
-
 .top-nav {
     margin-top: 20px;
 }
@@ -74,6 +72,20 @@ a {
 }
 .item-down .col-md-6 img{
     width: 100%;
+}
+.data-target{
+    position: absolute;
+    z-index: 2;
+    background-color: #fff;
+    max-width: 100%;
+    display: none;
+    left: 0;
+}
+.nav-dropdown{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding-right: var(--bs-gutter-x,.75rem);
+    padding-left: var(--bs-gutter-x,.75rem);
 }
 .carousel {
     margin-bottom: 100px;
@@ -469,5 +481,8 @@ a {
     }
     .carousel-text p{
         font-size: 14px;
+    }
+    .superiority-text{
+        margin-bottom: 10px;
     }
 }
